@@ -82,4 +82,4 @@ const SquareRange = () => {
   );
 };
 
-export default SquareRange;
+export { SquareRange };

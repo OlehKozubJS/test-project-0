@@ -8,7 +8,7 @@ import {
   KeyDownTest,
   CustomRangeTest,
   OpenCloser,
-  SquareRange,
+  SquareRanges,
 } from "../components";
 import { selectRangeValue } from "../redux";
 
@@ -37,10 +37,10 @@ function AppTestPage() {
         }
         elementName={"CustomRangeTest"}
       />
-      <OpenCloser element={<SquareRange />} elementName={"SquareRange"} />
+
       <div>{rangeValue}</div>
     </main>
   );
 }
-
+//<OpenCloser element={<SquareRange />} elementName={"SquareRange"} />
 export { AppTestPage };

@@ -8,7 +8,7 @@ import {
   KeyDownTest,
   CustomRangeTest,
   OpenCloser,
-  SquareRanges,
+  SquareRange,
 } from "../components";
 import { selectRangeValue } from "../redux";
 

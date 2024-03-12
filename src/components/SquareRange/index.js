@@ -1,3 +1,3 @@
-import SquareRange from "./SquareRange";
+import { SquareRange } from "./SquareRange";
 
 export { SquareRange };
